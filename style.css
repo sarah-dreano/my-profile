@@ -1,0 +1,101 @@
+body{
+	background-color: rgb(246,245,245) ;
+    color: rgb(30, 30, 30);
+    font-family: Times, serif; 
+}
+
+h1 {
+	color : purple;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200 ;
+
+}
+
+h2 {
+	color: purple; 
+}
+
+h3{
+	color: rgb(32,15,33)
+}
+
+p{
+	text-justify: center;
+}
+
+a{
+	color: rgb(100, 100, 100);
+	text-decoration: none ;
+	font-weight: 800 ; 
+	font-family: Times, serif;
+}
+
+a:hover {
+	color: rgb(219,198,235);
+	background : black;
+}
+
+
+
+
+/* Custome design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {.container {
+	width: 700px
+}
+}
+
+@media (max-width: 720px) {.container
+{
+	width: 500px;
+}
+} 
+
+@media (max-width: 540px) {.container 
+{
+	width: 300px;
+}
+}
+
+.card-white{
+	background-color: rgb(255,255,255) ;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+	border-radius: 3px ;
+	margin: 20px ;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50% ;
+
+}
+
+.btn-lila{
+	background: rgb(219,198,235) ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 3px;
+
+}
+.list-aligned{
+	padding-left: 100px;
+	padding-right: 50px;
+	text-align: left;
+}
+
+.list-center {
+	text-align: center;
+	list-style: none;
+}
+
+#intro p {
+	margin-bottom: 30px;
+
+}
